@@ -4,6 +4,29 @@ body {
  padding-bottom:7%;
 }
 
+.aboutpage-title{
+	font-size: 15px;
+	letter-spacing:2px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	padding-top:0;
+	padding-bottom:0;
+	font-weight: 500;
+}
+
+.aboutpage-subtitle{
+	font-size: 15px;
+	letter-spacing:2px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color:#216af0;
+	padding-top:0;
+	padding-bottom:0;
+	font-weight: 700;
+}
+
 .menupage-title{
 	font-size: 25px;
 	letter-spacing:5px;
@@ -38,7 +61,7 @@ body {
 }
 
 .nav {
-	font-size:11px;
+	font-size:10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight:500;
 	letter-spacing: 1px;
