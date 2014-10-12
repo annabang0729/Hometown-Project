@@ -6,7 +6,65 @@ body {
 }
 
 
+.panel-default>.panel-heading{
+	background-color: transparent;
+	border-color:transparent;
+}
 
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+ 	border-top-color:transparent;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top-color:transparent;
+}
+
+.pandel-body {
+	border:none;
+	border-color:transparent;
+}
+
+
+.panel, .panel-default {
+	background-color: transparent;
+	border-color:transparent;
+}
+
+.btn-default:hover {
+	color: #266a51;
+	font-weight:600;
+	background-color:transparent;
+	border-color:transparent;
+}
+
+.btn-default:active{
+	font-weight:600;
+}
+
+.btn-default:visited{
+	font-weight:600;
+}
+
+.btn-group.open .dropdown-toggle {
+	box-shadow: none;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+	color:#266a51;
+	background-color:transparent;
+	border-color:transparent;
+
+}
+
+ul.dropdown-menu{
+	background-color:#3fb288;
+}
+
+ul.dropdown-menu:hover{
+	color:#266a51;
+	background-color:#3fb288;
+}
 
 .panel-title{
 	font-size:12px;
@@ -74,6 +132,15 @@ margin-right:-20px;}
 		line-height:140%;
 	}
 
+.dropdown-menu>li>a {
+	font-weight:500;
+	color:#266a51;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color:transparent;
+	color:white;
+}
 
 .btn{
 	padding-top:5%;
@@ -92,8 +159,10 @@ margin-right:-20px;}
 }
 
 .dropdown-menu{
-	background-color:white;
-	border:none;
+	background-color:#3fb288;
+	border:thick;
+	border-color:#266a51;;
+	font-weight:600;
 }
 
 .header{
@@ -205,10 +274,18 @@ margin-right:-20px;}
 }
 
 .dropdown-menu {
+	bakground-color:#3fb288;
 	font-size: 11px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	min-width:110px;
+	text-align:center;
+	border-radius:0;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+
+
 }
 
 .nav {
