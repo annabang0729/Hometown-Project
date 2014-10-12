@@ -2,6 +2,157 @@
 body {
  font-family: serif;
  padding-bottom:7%;
+ background-color:white;
+}
+
+
+
+
+.panel-title{
+	font-size:12px;
+	font-weight:600;
+	font-family: 'Raleway', sans-serif;
+	color:gray;
+}
+
+
+.panel-default{
+	font-size:10px;
+	letter-spacing: 2px;
+	text-align:center;
+	color:gray;
+	text-transform: uppercase;
+}
+
+
+a:hover{
+	background: transparent;
+	border-style: none;
+}
+
+.brand img{
+	padding-top:20px;
+	height: 200px;
+	width: auto;
+}
+
+.button-container{background-color:#3fb288;
+border:0;
+padding-bottom:24px;
+margin-left:-20px;
+margin-right:-20px;}
+
+
+
+	.brandedlogo {
+		margin:0;
+		padding:0;
+		background:url("logotext.png") no-repeat;
+	}
+
+	.brandedlogo a, .brandedlogo a:link, .brandedlogo a:visited {
+		display:block;
+		width:200px;
+		height:auto;
+
+	}
+
+	.brand-firstpage{
+		display:block;
+		width:270px;
+		height:auto;
+	}
+
+	.smalltext {
+		padding-top:15px;
+		font-size:12px;
+	}
+
+		
+	.menu-text{
+		font-size:11.5px;
+		line-height:140%;
+	}
+
+
+.btn{
+	padding-top:5%;
+	background-color:transparent;
+	border: none;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing:2px;
+}
+
+.btn hover{
+	background-color:transparent;
+}
+
+.dropdown-menu{
+	background-color:white;
+	border:none;
+}
+
+.header{
+	padding-bottom:25px;
+	background-color:#3fb288;
+	margin-left:-20px;
+	margin-right:-20px;
+}
+
+.title{
+	padding-top:70px;
+	font-size:20px;
+	font-family:'Raleway', sans-serif;
+	font-weight:600;
+	letter-spacing: 5px;
+	text-align:center;
+	color:#3fb288;
+}
+
+.wavy img{
+	width:200px;
+	height:auto;
+}
+
+.line img{
+	width:100px;
+	height:auto;
+}
+
+
+.text-container{
+	padding-top:25px;
+	padding-bottom:20px;
+	font-size:14px;
+	letter-spacing: 2px;
+	text-align:center;
+	font-weight:600;
+	font-family: 'Raleway', sans-serif;
+	color:gray;
+	line-height: 180%;
+}
+
+#center{
+	text-align:center;
+}
+
+
+.title-menu{
+	font-size:20px;
+}
+
+
+.mainpage-text{
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.brandlogo-index img{
+	vertical-align: middle;
 }
 
 .aboutpage-title{
@@ -115,4 +266,11 @@ body {
 
 .container {
 	padding-bottom: 5%;
+}
+
+
+
+
+.btn-group {
+	padding-left:;
 }
