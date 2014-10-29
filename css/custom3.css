@@ -2,8 +2,9 @@
 
 @media all and (max-width: 5000px) and (min-width: 700px) {
 
-	.projectrule{
-		padding-right:40%;
-	}
 
+
+	.hometown-description{
+		width:700px;
+	}
 }
