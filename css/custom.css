@@ -1,189 +1,80 @@
 
-
-body {
-	padding-left:5%;
-	padding-right:5%;
+.custom-container{
+	margin-left:25px;
+	margin-right:29px;
 }
 
-.container{
-	max-width:500px;
-}
-
-.location-sub{
-	font-size:10px;
-}
-
-.panel-heading{
-	font-weight:700;
-}
-
-.panel-title{
-	font-weight:700;
-}
-
-
-.panel-default {
-border-color: transparent;
-}
-
-
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-border-top-color: transparent;
-}
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-border-top-color: transparent;
-}
-
-
-.panel-body{
-	margin-top:-5px;
-	color:gray;
-	font-weight:500;
-	font-size:10px;
-}
-
-
-.panel.panel-default{
-	border:none;
-}
-
-.panel-group .panel-heading {
-border-bottom: none;
-}
-
-
-
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-	border-top-color: transparent;
-}
-
-.panel-default>.panel-heading {
-color: #333;
-background-color: transparent;
-border-color: transparent;
-}
-
-.panel-group .panel-heading+.panel-collapse>.panel-body {
-	border-top: 0px;
-}
-
-.h4 {
+.navbar {
+	font-family: 'Droid Serif' serif;
+	font-weight: 700;
 	font-size:12px;
-	font-weight:700;
+	color:black;
+	padding-top:18px;
+	background-color:transparent;
+
 }
 
-.panel-default>.panel-heading {
-	color: black;
+.navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	margin-left:-10px;
 }
 
-.hometown{
-	padding-left:5%;
-	padding-right:10%;
-	font-family: 'Raleway', sans-serif;
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+.navbar-brand{
+	padding-right:30px;
+}
+
+body{
+	padding-left:10px;
+	max-width:800px;
+	background-color:;
+}
+
+h5 {
+	font-family: 'Droid Serif' serif;
 	font-weight: 700;
-	letter-spacing:2px;
-	font-size: 14px;
+	font-size:14px;
 	color:black;
-	text-transform: uppercase;
 }
 
-
-.gallery-image{
-	padding-left:5%;
-}
-
-
-.navbarsmall{
-	margin-top:-30px;
-	letter-spacing: 2px;
-	font-family: 'Raleway', sans-serif;
+h3{
+	font-family: 'Droid Serif' serif;
 	font-weight: 700;
-	font-size: 10px;
-	color:gray;
-	text-transform: uppercase;
+	font-size:24px;
+	color:black;
+}
+
+h2{
+	font-family: 'Droid Serif' serif;
+	font-weight: 700;
+	font-size:60px;
+	color:black;
 }
 
 a {
 	color:black;
 }
 
-.link{
-	color:red;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+p {
+	font-family: 'Droid Serif' serif;
+	font-weight:400;
+	font-size:13.5px;
+	padding-top:3px;
+	color:black;
 }
 
-.label{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 12px;
-	margin: 0 auto;
-	color:gray;
+.padding{
+	padding-top:4px;
 }
 
-.navbar{
-	letter-spacing:2px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+.small-padding{
+	padding-top:2px;
 }
 
-.panel-heading{
-	background-color:transparent;
+.thumbnail{
+	border:none;
 }
-
-.panel-title{
-	font-size:14px;
-}
-
-
-.breadcrumb{
-	background-color:transparent;
-}
-
-.projectrule{
-	padding-left:5%;
-	padding-right:10%;
-}
-
-.title{
-	letter-spacing: 2px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 25px;
-}
-
-.hometown-description{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 15px;
-	margin: 0 auto;
-}
-
-.project-description{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 15px;
-}
-
-.instruction-title{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	letter-spacing:2px;
-	font-size: 20px;
-	color:gray;
-}
-
-.rule {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 13px;
-	color:gray;
-	padding-top:15px;
-}
-
-.breadcrumb>li+li:before {
-	color: black;
-}
-
