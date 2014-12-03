@@ -11,7 +11,12 @@
 	color:black;
 	padding-top:18px;
 	background-color:transparent;
+	float
 
+}
+
+.nav{
+	float:right;
 }
 
 .navbar-default {
@@ -28,16 +33,20 @@
 	padding-right:30px;
 }
 
+.navbar-toggle{
+	margin-top:30px;
+}
+
 body{
 	padding-left:10px;
 	max-width:800px;
-	background-color:;
+	/*background-color:#f2e950;*/
 }
 
 h5 {
 	font-family: 'Droid Serif' serif;
 	font-weight: 700;
-	font-size:14px;
+	font-size:16px;
 	color:black;
 }
 
@@ -55,7 +64,14 @@ h2{
 	color:black;
 }
 
-a {
+h4{
+	font-family: 'Droid Serif' serif;
+	font-weight: 700;
+	font-size:20px;
+	color:gray;
+}
+
+a{
 	color:black;
 }
 
@@ -67,8 +83,24 @@ p {
 	color:black;
 }
 
+.color{
+
+	font-family: 'Droid Serif' serif;
+	font-weight:400;
+	font-size:13.5px;
+	padding-top:3px;
+}
+
+.thumbnail{
+	background-color: transparent;
+}
+
 .padding{
 	padding-top:4px;
+}
+
+.negative-padding{
+	margin-top:-5px;
 }
 
 .small-padding{
