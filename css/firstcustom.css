@@ -1,0 +1,20 @@
+body{
+	background-color:#fad21b;
+}
+
+.navbar-default .navbar-brand{
+	color:#ff5c23;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #ff5c23;
+}
+
+a:hover {
+	color:white;
+}
+
+img{
+	border: 5px solid #ff5c23;
+
+}

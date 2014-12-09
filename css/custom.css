@@ -1,3 +1,36 @@
+.navbar-default .navbar-brand{
+	color:white;
+	letter-spacing: 1.5px;
+	font-family:'raleway';
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+.navbar-default, .navbar-default{
+	color: #373526;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	letter-spacing: 1.5px;
+	font-family:'raleway';
+	text-transform: uppercase;
+	font-size:13px;
+}
+
+h2{
+	font-family: 'raleway' serif;
+	font-weight: 700;
+	font-size:60px;
+	color:#373526;
+}
+
+a:active{
+	color:#373526;
+}
+
+
 
 .custom-container{
 	margin-left:25px;
@@ -5,10 +38,10 @@
 }
 
 .navbar {
-	font-family: 'Droid Serif' serif;
+	font-family: 'raleway' serif;
 	font-weight: 700;
 	font-size:12px;
-	color:black;
+	color:transparent;
 	padding-top:18px;
 	background-color:transparent;
 	float
@@ -25,9 +58,7 @@
 	margin-left:-10px;
 }
 
-.navbar-default .navbar-brand {
-	color: black;
-}
+
 
 .navbar-brand{
 	padding-right:30px;
@@ -40,44 +71,36 @@
 body{
 	padding-left:10px;
 	max-width:800px;
-	/*background-color:#f2e950;*/
+	background-color:#8eae59;
 }
 
 h5 {
-	font-family: 'Droid Serif' serif;
+	font-family: 'raleway' serif;
 	font-weight: 700;
 	font-size:16px;
-	color:black;
+	color:#ff5c23;
 }
 
 h3{
-	font-family: 'Droid Serif' serif;
+	font-family: 'raleway' serif;
 	font-weight: 700;
 	font-size:24px;
-	color:black;
+	color:#373526;
 }
 
-h2{
-	font-family: 'Droid Serif' serif;
-	font-weight: 700;
-	font-size:60px;
-	color:black;
-}
+
 
 h4{
-	font-family: 'Droid Serif' serif;
+	font-family: 'raleway' serif;
 	font-weight: 700;
 	font-size:20px;
-	color:gray;
 }
 
-a{
-	color:black;
-}
+
 
 p {
-	font-family: 'Droid Serif' serif;
-	font-weight:400;
+	font-family: 'raleway' serif;
+	font-weight:600;
 	font-size:13.5px;
 	padding-top:3px;
 	color:black;
@@ -85,7 +108,7 @@ p {
 
 .color{
 
-	font-family: 'Droid Serif' serif;
+	font-family: 'raleway' serif;
 	font-weight:400;
 	font-size:13.5px;
 	padding-top:3px;
