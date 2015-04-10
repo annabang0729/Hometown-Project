@@ -1,0 +1,323 @@
+body{
+	margin:0;
+	background-color:#2e2e2e;
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	letter-spacing:2pt;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.logo{
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	color:white;
+	letter-spacing:4pt;
+	text-decoration: none;
+	opacity:0.2;
+	text-align:center;
+	margin-top:22px;
+	line-height:140%;
+}
+
+
+hr.lineone{
+	text-align: center;
+	border:0;
+	height:1px;
+	background: white;
+	width:90px;	
+	opacity:0.2;
+}
+
+.circuitcontainer{
+  position: absolute;
+  display: block;
+  width: 900px;
+  height:400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  color:white;
+}
+
+.braincircuit{
+	margin-top:30px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:30px;
+	font-weight:700;
+	color:white;
+	letter-spacing:6pt;
+	margin-bottom:35px;
+}
+
+hr.titleline{
+	width:40px;
+	height:1px;
+	background:white;
+	margin-bottom:55px;
+}
+
+
+
+
+
+.label {
+	text-transform: uppercase;
+}
+
+.labelcontainer{
+	opacity:0.15;
+}
+
+.labelcontainer:hover{
+	opacity:0.5;
+}
+
+.label.second{
+	opacity:1;
+}
+
+.sublabel.second{
+	opacity:1;
+}
+
+
+
+
+
+.circuit1{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:55px;
+	padding-right:55px;
+}
+
+.circuit2{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:45px;
+	padding-right:52px;
+}
+
+.circuit3{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:70px;
+	padding-right:50px;
+}
+
+img{
+	padding-left:75px;
+	padding-right:75px;
+	width:145px;
+}
+
+.label {
+	text-transform: uppercase;
+}
+
+
+.timelineimage{
+	margin-left:132px;
+	margin-right:132px;
+	margin-top:95px;
+	width:632px;
+}
+
+.horizontalline{
+	border:0;
+	border-style:solid;
+	border-width:2px 0 0 0;
+	border-color: #4a4a4a;
+	position:relative;
+	top:13px;
+	z-index:-10000;
+}
+
+.circle{
+	width:12px;
+	height:12px;
+	border-radius:10px;
+	background:#4a4a4a;
+	display:inline-block;
+	margin-right:60px;
+}
+
+.circle.two{
+	background:white;
+	opacity:1;
+}
+
+.circle.four{
+	background:white;
+	opacity:1;
+}
+
+.circle.six{
+	background:white;
+	opacity:1;
+}
+
+.circle.nine{
+	margin-right:0px;
+}
+
+
+
+
+
+
+
+.realnineamcircle{
+	color:white;
+	position:absolute;
+	left:210px;
+	top:385px;
+	font-weight: 400;
+	font-size:10px;
+	letter-spacing: 1pt;
+}
+
+.twopmcircle{
+	color:white;
+	position:absolute;
+	left:367px;
+	top:385px;
+	font-weight: 400;
+	font-size:10px;
+	letter-spacing: 1pt;
+}
+
+.fivepmcircle{
+	color:white;
+	position:absolute;
+	left:522px;
+	top:385px;
+	font-weight: 400;
+	font-size:10px;
+	letter-spacing: 1pt;
+}
+
+
+
+
+
+.realnineamline{
+	position:absolute;
+	left:214px;
+	top:310px;
+	border-left:dotted white;
+	height:68px;
+	border-width:1px;
+}
+
+.twopmline{
+	position:absolute;
+	left:369px;
+	top:310px;
+	border-left:dotted white;
+	height:68px;
+	border-width:1px;
+}
+
+.fivepmline{
+	position:absolute;
+	left:524px;
+	top:310px;
+	border-left:dotted white;
+	height:68px;
+	border-width:1px;
+}
+
+
+
+
+.sun{
+	position:absolute;
+	left:6px;
+	top:291px;
+	width:28px;
+	opacity:0.1;
+	z-index:-500;
+}
+
+.moon{
+	position:absolute;
+	left:713px;
+	top:292px;
+	width:24px;
+	opacity:0.07;
+	z-index:-500;
+}
+
+
+
+
+
+.outercircle5{
+	position:absolute;
+	left:206px;
+	top:297px;
+	width:16px;
+	height:16px;
+	border-radius:10px;
+	border: 1px solid white;
+	z-index:-100;
+	background-color:white;
+}
+
+.outercircle6{
+	position:absolute;
+	left:361px;
+	top:297px;
+	width:16px;
+	height:16px;
+	border-radius:10px;
+	border: 1px solid white;
+	z-index:-100;
+	background-color:white;
+}
+
+.outercircle7{
+	position:absolute;
+	left:516px;
+	top:297px;
+	width:16px;
+	height:16px;
+	border-radius:10px;
+	border: 1px solid white;
+	z-index:-100;
+	background-color:white;
+}
+
+
+
+
+
+
+img.question{
+	position:fixed;
+	bottom:20px;
+	width:30px;
+	left:50%;
+	right:50%;
+	padding:0px;
+	margin-left:-18px;
+	opacity:0.3;
+}
+
+img.question:hover{
+	opacity:1;
+}

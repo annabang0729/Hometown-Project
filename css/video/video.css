@@ -1,0 +1,104 @@
+#brain-button.selected{
+	opacity:1;
+}
+
+#heart-button.selected{
+	opacity:1;
+}
+
+#thoughts-button.selected{
+	opacity:0.5;
+}
+
+#brain-button{
+	opacity:0.5;
+}
+
+#heart-button{
+	opacity:0.5;
+}
+
+#thoughts-button{
+	opacity:1;
+}
+
+
+#brain-button:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+#heart-button:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+#thoughts-button:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+
+.exicon{
+	position:absolute;
+	top:15px;
+	right:21px;
+	opacity:0.3;
+}
+
+.exicon:hover{
+	opacity:1;
+}
+
+.buttoncontainer{
+	display:block;
+	position:absolute;
+	top:73px;
+	right:20px;
+}
+
+.button{
+	margin-top:18px;
+	width:70px;
+	height:70px;
+	border:2px solid;
+	border-radius:50px;
+	border-color:white;
+	background-color:transparent;
+}
+
+.button:hover{
+	opacity:1;
+}
+
+.hearticon{
+	margin-left:-7px;
+	margin-top:-6px;
+}
+
+.brainicon{
+	margin-left:-7px;
+	margin-top:-6px;
+}
+
+.thoughticon{
+	margin-left:-6px;
+	margin-top:-7px;
+}
+
+.infoicon{
+	position:absolute;
+	bottom:29px;
+	right:33px;
+	opacity:0.3;
+}
+
+.infoicon:hover{
+	opacity:1;
+}
+
+.video2{
+	z-index:5;
+}
+

@@ -1,0 +1,137 @@
+body{
+	margin:0;
+	background-color:#2e2e2e;
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	letter-spacing:2pt;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+
+hr.lineone{
+	text-align: center;
+	border:0;
+	height:1px;
+	background: white;
+	width:90px;	
+	opacity:0.2;
+}
+
+
+
+
+
+
+
+.label {
+	text-transform: uppercase;
+	font-size:73px;
+
+	letter-spacing:2pt;
+}
+
+.sublabel{
+	font-size:15px;
+	font-weight:700;
+	letter-spacing:1pt;
+}
+
+
+.number1{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:160px;
+}
+
+.number2{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:125px;
+}
+
+.number3{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:125px;
+}
+
+.number4{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:125px;
+}
+
+a{
+	color:white;
+	text-decoration: none;	
+}
+
+.enter{
+	color:white;
+	text-decoration: none;
+	border:1px solid white;
+	width:140px;
+	text-align: center;
+	padding:15px;
+	margin:auto;
+	font-size:15px;	
+}
+
+a.enter{
+	color:white;
+	text-decoration: none;	
+}
+
+.enter:hover{
+	background-color: white;
+	color:#2e2e2e;
+}
+
+
+
+
+
+
+
+.info1{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:113px;
+	padding-top:10px;
+}
+
+.info2{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:71px;
+}
+
+.info3{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:101px;
+}
+
+.info4{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:69px;
+}
+
+
+
+
+

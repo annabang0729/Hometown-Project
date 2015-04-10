@@ -1,0 +1,91 @@
+
+.area{
+  animation:blur 3s ease-out infinite;
+  text-shadow:0px 0px 2px #fff,
+      0px 0px 5px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 3px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7e7e7e,
+      0px 0px 80px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e;}
+}
+
+
+
+
+
+.area{
+  -webkit-animation:blur 3s ease-out infinite;
+  text-shadow:0px 0px 2px #fff,
+      0px 0px 5px #fff;
+}
+
+@-webkit-keyframes blur{
+  from{
+      text-shadow:0px 0px 3px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7e7e7e,
+      0px 0px 80px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e;}
+}
+
+
+
+.area{
+  -moz-animation:blur 3s ease-out infinite;
+  text-shadow:0px 0px 2px #fff,
+      0px 0px 5px #fff;
+}
+
+@-moz-keyframes blur{
+  from{
+      text-shadow:0px 0px 3px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7e7e7e,
+      0px 0px 80px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px 10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e,
+      0px -10px 60px #7e7e7e;}
+}
+

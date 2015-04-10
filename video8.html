@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>8PM Finishing assignments</title>
+
+    <!-- CSS -->    
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+
+    <link href="css/video/video.css" rel="stylesheet">
+    <link href="css/video/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:600,700">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+<!--End of Head-->
+
+<!--BODY starts here-->
+<body>
+
+  <div class="video8">
+        
+        <a href="prefrontal.html"><img class="exicon" src="images/exicon.png"></img></a>
+            
+
+            <div class="buttoncontainer" id='button-container'>
+                <div class="button brain" id="brain-button">
+                    <img class="brainicon" src="images/brainicon3.png"></img>
+                </div>
+                <div class="button thoughts" id="thoughts-button">
+                    <img class="thoughticon" src="images/thoughticon3.png"></img>
+                </div>
+            </div>
+
+            <a class="information" id="information-button" href="eightpm.html">
+                    <img class="infoicon" src="images/infoicon.png"></img>
+            </a>
+
+            <div class="video">
+                <video autoplay>
+                    <source src="videos/8.studying.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        <div class="brainanimation hidden" id='brain-animation'>
+        </div>
+
+        <div class="thoughtanimation" id='thoughts-animation'>
+        </div>
+
+      <div class="buttons" style="display:none">
+
+            <a href="circuitinfo3.html">
+              <div class="exitbutton">BRAIN CIRCUIT INFO</div>
+            </a>
+
+        <br><br>
+
+            <a href="video8.html">
+              <div class="replaybutton">REPLAY</div>
+            </a>
+            
+      </div>
+
+  </div>
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/video/main.js"></script>
+  <script src="js/video/animations.js"></script>
+  <script src="js/video/static.js"></script>
+  <script src="js/video/video5.js"></script>
+
+  
+
+  <script>
+  $(document).ready(function(){
+        insertBrainAnimation('images/video5/brain.gif');
+        fadeInButtons('5000','600');
+        fadeOutButtons('33000','600');
+        fadeOutHeartAnimation('33000','600');
+        fadeOutBrainAnimation('33000','600');
+        thoughtsAssignment();
+        $(".buttons").delay(34000).fadeIn(2000); 
+  });
+
+
+
+  </script>
+
+</body>
+</html>
+<!--BODY ends here-->

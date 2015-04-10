@@ -1,0 +1,187 @@
+.abouttext{
+	width:600px;
+	text-align:center;
+	margin:auto;
+	line-height: 200%;
+	letter-spacing: 1pt;
+	font-size:13px;
+	font-weight: 400;
+}
+
+a.bib{
+	color:gray;
+}
+
+.source{
+	font-size:10.5px;
+	color:gray;
+	line-height: 130%;
+}
+
+body{
+	margin:0;
+	background-color:#2e2e2e;
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	letter-spacing:2pt;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.logo{
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	color:white;
+	letter-spacing:4pt;
+	text-decoration: none;
+	opacity:0.2;
+	text-align:center;
+	margin-top:22px;
+	line-height:140%;
+}
+
+
+hr.lineone{
+	text-align: center;
+	border:0;
+	height:1px;
+	background: white;
+	width:90px;	
+	opacity:0.2;
+}
+
+.circuitcontainer{
+  position: absolute;
+  display: block;
+  width: 900px;
+  height:400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  color:white;
+}
+
+.braincircuit{
+	margin-top:30px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:30px;
+	font-weight:700;
+	color:white;
+	letter-spacing:6pt;
+	margin-bottom:35px;
+}
+
+hr.titleline{
+	width:40px;
+	height:1px;
+	background:white;
+	margin-bottom:55px;
+}
+
+
+
+
+
+.label {
+	text-transform: uppercase;
+}
+
+.labelcontainer{
+	opacity:0.15;
+}
+
+.labelcontainer:hover{
+	opacity:0.5;
+}
+
+.label.second{
+	opacity:1;
+}
+
+.sublabel.second{
+	opacity:1;
+}
+
+
+
+
+
+.circuit1{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:55px;
+	padding-right:55px;
+}
+
+.circuit2{
+	display:inline-block;
+	text-align: center;
+	line-height: 180%;
+	padding-left:45px;
+	padding-right:52px;
+}
+
+.circuit3{
+	display:inline-block;
+	text-align: center; 
+	line-height: 180%;
+	padding-left:70px;
+	padding-right:50px;
+}
+
+
+
+.label {
+	text-transform: uppercase;
+}
+
+
+.timelineimage{
+	margin-left:132px;
+	margin-right:132px;
+	margin-top:95px;
+	width:632px;
+}
+
+.horizontalline{
+	border:0;
+	border-style:solid;
+	border-width:2px 0 0 0;
+	border-color: #4a4a4a;
+	position:relative;
+	top:13px;
+	z-index:-10000;
+}
+
+
+
+
+
+
+.exicon {
+  position: absolute;
+  top: 15px;
+  right: 21px;
+  opacity: 0.3;
+}
+
+.exicon:hover{
+	opacity:1;
+}
+
+
+
+
+
+
+
+

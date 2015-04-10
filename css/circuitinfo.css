@@ -1,0 +1,181 @@
+body{
+	margin:0;
+	background-color:black;
+	font-family:'Karla', sans-serif;
+	font-size:11px;
+	font-weight:700;
+	letter-spacing:2pt;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.logo{
+	font-family:'Karla', sans-serif;
+	font-size:12px;
+	font-weight:700;
+	color:white;
+	letter-spacing:4pt;
+	text-decoration: none;
+	opacity:0.4;
+	text-align:center;
+	margin-top:82px;
+	line-height:140%;
+}
+
+
+.circuitcontainer{
+  position: absolute;
+  display: block;
+  width: 650px;
+  height:400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  color:white;
+}
+
+.animation1{
+	margin-top:130px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+.animation11{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+.animation12{
+	margin-top:130px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+.animation2{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+
+.animation3{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+
+.animation4{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+
+
+.animation5{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+.animation6{
+	margin-top:45px;
+	text-align: center;
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	color:white;
+	letter-spacing:1pt;
+	line-height: 200%;
+}
+
+
+
+
+
+.next{
+	text-align: center;
+	font-size:13px;
+	margin-left:-10px;
+	margin-top:10px;
+	opacity:0.4;
+	cursor:pointer;
+}
+
+.next:hover{
+	opacity:1;
+}
+
+strong{
+	color:yellow;
+}
+
+
+
+img.heartgif {
+  width: 98px;
+  position: absolute;
+  margin-left: 267px;
+  top: 237px;
+}
+
+img.heart {
+  position: absolute;
+  width: 482px;
+  z-index: -10;
+  margin-left: 82px;
+  top: 169px;
+}
+
+img.sensamygdala {
+  margin-left: 92px;
+  width: 450px;
+}
+
+
+img.feedback {
+  width: 500px;
+  margin-top: 10px;
+}

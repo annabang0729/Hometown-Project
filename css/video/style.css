@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.buttoncontainer{
+	display:none;
+}
+
+
+.brainanimation{
+	position:absolute;
+	top:20px;
+	margin-left:15px;
+	color:white;
+	width:150px;
+	height:150px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-color:transparent;
+}
+
+.heartanimation{
+	position:absolute;
+	bottom:0px;
+	margin-left:30px;
+	width:150px;
+	height:150px;
+	color:white;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-color:transparent;
+	overflow:hidden;
+}
+
+.thoughtanimation{
+	position:absolute;
+	bottom:20px;
+  	display: block;
+  	bottom: 5%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+}
+
+.thoughtanimation{
+	font-family:'Karla', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	letter-spacing:1pt;
+	color:white;
+	text-align: center;
+}
+
+.video{
+	position:absolute;
+	z-index: -300;
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+}
+
+video{
+	min-height:100%;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+.replaybutton{
+	font-family:'Karla', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	letter-spacing:3pt;
+	padding:14px;
+	width:100px;
+	height:19px;
+	color:white;
+	text-align: center;
+}
+
+.exitbutton{
+	font-family:'Karla', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	letter-spacing:3pt;
+	border:1px solid white;
+	padding:14px;
+	width:260px;
+	height:19px;
+	color:white;
+	text-align: center;
+}
+
+.exitbutton{
+  position: absolute;
+  display: block;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+.replaybutton{
+  position: absolute;
+  display: block;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+.replaybutton:hover{
+	color:#2e2e2e;
+	font-weight:700;
+}
+
+.exitbutton:hover{
+	color:#2e2e2e;
+	background-color: white;
+	font-weight:700;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.hidden{
+	left:-9999px;
+}
